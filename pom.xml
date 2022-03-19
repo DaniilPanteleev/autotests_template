@@ -6,7 +6,7 @@
     <groupId>autotests.template</groupId>
     <artifactId>base-structure</artifactId>
     <packaging>pom</packaging>
-    <version>1.0.0</version>
+    <version>0.0.1</version>
 
     <name>base_autotests</name>
     <description>Base structure for UI and API testing</description>
