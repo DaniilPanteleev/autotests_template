@@ -31,7 +31,7 @@ public class Vector {
     }
 
     public Vector PlusORMinus(Vector vector, String a) {
-        if (a.equals("Plus") || a.equals("plus")) {
+        if (a.equalsIgnoreCase("Plus")) {
             return new Vector(
                     x + vector.x,
                     y + vector.y,
