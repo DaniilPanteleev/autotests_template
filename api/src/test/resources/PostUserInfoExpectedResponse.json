@@ -1,0 +1,50 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "isCreated": {
+      "type": "boolean"
+    },
+    "id": {
+      "type": "integer"
+    },
+    "name": {
+      "type": "string"
+    },
+    "lastName": {
+      "type": "string"
+    },
+    "info": {
+      "type": "object",
+      "properties": {
+        "age": {
+          "type": "integer"
+        },
+        "growth": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "age",
+        "growth"
+      ]
+    },
+    "colors": {
+      "type": "array",
+      "items": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "string"
+        }
+      ]
+    }
+  },
+  "required": [
+    "name",
+    "lastName",
+    "info",
+    "colors"
+  ]
+}

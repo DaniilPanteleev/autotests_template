@@ -1,0 +1,11 @@
+{
+  "isCreated": true,
+  "id": 1,
+  "name": "Boris",
+  "lastName": "Huyoris",
+  "info": {
+    "age": 10,
+    "growth": 150
+  },
+  "colors": ["red","black"]
+}
